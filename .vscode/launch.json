@@ -1,0 +1,89 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-MicroservicioreporteApplication<microservicioreporte>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.microservicioreporte.microservicioreporte.MicroservicioreporteApplication",
+            "projectName": "microservicioreporte",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-MicroserviciocrearApplication<microserviciocrear>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.microserviciocrear.microserviciocrear.MicroserviciocrearApplication",
+            "projectName": "microserviciocrear",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=53658 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=microserviciocrear"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-MicroservicioinicioApplication<microservicioinicio>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.microservicioinicio.microservicioinicio.MicroservicioinicioApplication",
+            "projectName": "microservicioinicio",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-MicroservicioasignacionApplication<microservicioasignacion>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.microservicioasignacion.microservicioasignacion.MicroservicioasignacionApplication",
+            "projectName": "microservicioasignacion",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=57255 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=microservicioasignacion"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-MicroservicioevaluacionesApplication<microservicioevaluaciones>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.microservicioevaluaciones.microservicioevaluaciones.MicroservicioevaluacionesApplication",
+            "projectName": "microservicioevaluaciones",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=62425 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=microservicioevaluaciones"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-MicroserviciocursoApplication<microserviciocurso>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.microserviciocurso.microserviciocurso.MicroserviciocursoApplication",
+            "projectName": "microserviciocurso",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=57237 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=microserviciocurso"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-MicroserviciousuarioApplication<microserviciousuario>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.microserviciousuario.microserviciousuario.MicroserviciousuarioApplication",
+            "projectName": "microserviciousuario",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=58208 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=microserviciousuario"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-MicroserviciogenerarApplication<microserviciogenerar>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.microserviciogenerar.microserviciogenerar.MicroserviciogenerarApplication",
+            "projectName": "microserviciogenerar",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
