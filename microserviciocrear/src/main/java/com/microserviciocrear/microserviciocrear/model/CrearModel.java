@@ -29,5 +29,4 @@ public class CrearModel {
         this.correo = correo;
         this.password = password;
     }
-
 }
